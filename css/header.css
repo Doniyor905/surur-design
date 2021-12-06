@@ -134,3 +134,32 @@
 .nav__popup-link:hover::after {
     transform: translateX(0%);
 }
+
+.burger__menu-link {
+    display: none;
+}
+
+.burger__menu-title.active span {
+    transform: rotate(180deg);
+    color: red;
+}
+
+.burger__menu-text {
+    display: none;
+}
+
+.icon__link {
+    display: block;
+    transform: rotate(0deg);
+    transition: .5s;
+    margin-left: 10px;
+}
+
+.burger__menu-text {
+    margin-top: 10px;
+}
+
+.burger__menu-title-mobile {
+    display: flex;
+    align-items: center;
+} 
